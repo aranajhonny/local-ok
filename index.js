@@ -11,7 +11,7 @@ exports.server = (options) => {
 	options = options || {}
 	let port = options.port || process.env.PORT || PORT
 	let folder = options.folder || FOLDER
-	let serve = static(__dirname + '/' +folder);
+	let serve = static(__dirname + '/' + folder);
 	let server = http.createServer(function onRequest (req, res) {
 		let _compress = compression()
 		 _compress(req, res, function (err) {
@@ -19,7 +19,7 @@ exports.server = (options) => {
 	  	 });
 	});
 	server.listen(port)
-	console.log( chalk.green(`Listening folder on 127.0.0.1:${port}`));
+	console.log( chalk.green(`Listening ${folder} on 127.0.0.1:${port}`));
 
 }
 

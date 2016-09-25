@@ -1,6 +1,6 @@
 {
   "name": "local-ok",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "serves web pages from a local folder using http",
   "main": "index.js",
   "scripts": {
