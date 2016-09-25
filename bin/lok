@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var lok = require('../index');
 
 if (process.argv[2] == '-h' || process.argv[2] == '--help') {
