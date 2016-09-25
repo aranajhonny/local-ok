@@ -11,7 +11,7 @@ exports.server = (options) => {
 	options = options || {}
 	let port = options.port || process.env.PORT || PORT
 	let folder = options.folder || FOLDER
-	let serve = static(__dirname + '/' + folder);
+	let serve = static(folder);
 	let server = http.createServer(function onRequest (req, res) {
 		let _compress = compression()
 		 _compress(req, res, function (err) {
