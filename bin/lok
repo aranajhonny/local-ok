@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 
-var lok = require('../index');
+const lok = require('../index');
+const chalk = require('chalk');
 
 if (process.argv[2] == '-h' || process.argv[2] == '--help') {
-  console.log('\nusage: lok [directory] [port] \n');
+  console.log(chalk.cyan.bold('\nuse: lok [folder] [port] \n'));
   process.exit(0);
 }
 
