@@ -1,10 +1,10 @@
 {
   "name": "local-ok",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "serves web pages from a local folder using http",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "xo && ava "
   },
   "repository": {
     "type": "git",
@@ -29,5 +29,9 @@
   "devDependencies": {
     "ava": "^0.16.0",
     "ava-http": "^0.2.1"
+  },
+  "ava": {
+    "concurrency": 5,
+    "tap": true
   }
 }
