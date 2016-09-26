@@ -1,5 +1,5 @@
 
-# local-ok [![Build Status](https://travis-ci.org/aranajhonny/local-ok.svg?branch=master)](https://travis-ci.org/aranajhonny/local-ok)
+# local-ok [![Build Status](https://travis-ci.org/aranajhonny/local-ok.svg?branch=master)](https://travis-ci.org/aranajhonny/local-ok) [![Build Status](https://ci.appveyor.com/api/projects/status/github/aranajhonny/local-ok?branch=master&svg=true)](https://ci.appveyor.com/project/aranajhonny/local-ok)
 
 
 > serves web pages or static sites from a local folder using the CLI
