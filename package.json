@@ -27,7 +27,7 @@
     "lok": "./bin/lok"
   },
   "devDependencies": {
-    "ava": "^0.22.0",
+    "ava": "^0.24.0",
     "ava-http": "^0.2.1",
     "xo": "^0.19.0"
   },
